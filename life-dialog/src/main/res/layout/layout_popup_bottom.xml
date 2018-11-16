@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_camera_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_camera_album"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="camera album"
+        android:textColor="@drawable/comm_text_click" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_picasso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_picasso"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="picasso"
+        android:textColor="@drawable/comm_text_click" />
+
+
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_cancel"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="cancel"
+        android:textColor="@drawable/comm_text_click" />
+
+
+</LinearLayout>
